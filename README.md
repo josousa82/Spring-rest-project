@@ -7,11 +7,7 @@ App to practice working with REST Apis in java and spring boot
 * [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4c04b09260a4462da1efd8abd560d74b)](https://www.codacy.com/manual/josousa82/Template-Repository/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=josousa82/Template-Repository&amp;utm_campaign=Badge_Grade)
 
 #### CircleCI
-* [![<CircleCI>](https://circleci.com/gh/josousa82/Template-Repository.svg?style=shield)](https://circleci.com/gh/josousa82/Template-Repository)
-
-#### TravisCI
-* [![Build Status](https://travis-ci.com/josousa82/Template-Repository.svg?branch=master)](https://travis-ci.com/josousa82/Template-Repository)
-
+* [![CircleCI](https://circleci.com/gh/josousa82/Spring-rest-project/tree/master.svg?style=svg)](https://circleci.com/gh/josousa82/Spring-rest-project/tree/master)
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
