@@ -1,0 +1,11 @@
+com\training\rest\mapper\CustomerMapperTest.class
+com\training\rest\services\VendorServiceTest.class
+com\training\rest\services\CustomerServiceImplIT.class
+com\training\rest\controllers\VendorControllerTest.class
+com\training\rest\services\CustomerServiceTest.class
+com\training\rest\springrestproject\SpringRestProjectApplicationTests.class
+com\training\rest\controllers\AbstractRestController.class
+com\training\rest\controllers\CategoryControllerTest.class
+com\training\rest\mapper\CategoryMapperTest.class
+com\training\rest\services\CategoryServiceTest.class
+com\training\rest\controllers\CustomerControllerTest.class
