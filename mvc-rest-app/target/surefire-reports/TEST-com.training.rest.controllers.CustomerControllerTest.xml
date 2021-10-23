@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.training.rest.controllers.CustomerControllerTest" time="0.258" tests="11" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="testGetCustomerById" classname="com.training.rest.controllers.CustomerControllerTest" time="0.05"/>
+  <testcase name="testGetCustomerByIdNotFoundThrowsException" classname="com.training.rest.controllers.CustomerControllerTest" time="0.018"/>
+  <testcase name="createNewCustomer" classname="com.training.rest.controllers.CustomerControllerTest" time="0.05"/>
+  <testcase name="testGetCustomerByName" classname="com.training.rest.controllers.CustomerControllerTest" time="0.017"/>
+  <testcase name="testUpdateCustomerNotFoundThrowsException" classname="com.training.rest.controllers.CustomerControllerTest" time="0.018"/>
+  <testcase name="testGetAllCustomers" classname="com.training.rest.controllers.CustomerControllerTest" time="0.017"/>
+  <testcase name="testPatchCustomer" classname="com.training.rest.controllers.CustomerControllerTest" time="0.018"/>
+  <testcase name="testUpdateCustomer" classname="com.training.rest.controllers.CustomerControllerTest" time="0.017"/>
+  <testcase name="testPatchCustomerNotFoundThrowsException" classname="com.training.rest.controllers.CustomerControllerTest" time="0.016"/>
+  <testcase name="testGetCustomerByNameNotFoundThrowsException" classname="com.training.rest.controllers.CustomerControllerTest" time="0.015"/>
+  <testcase name="deleteCustomerByIdTest" classname="com.training.rest.controllers.CustomerControllerTest" time="0.019"/>
+</testsuite>
