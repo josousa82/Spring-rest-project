@@ -35,6 +35,12 @@
 <!--            <version>2.1.0</version>-->
 <!--        </dependency>-->
 
+        <dependency>
+            <groupId>com.github.wwerner</groupId>
+            <artifactId>jaxb-lombok-plugin</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
@@ -56,17 +62,16 @@
                     </sources>
                     <clearOutputDir>false</clearOutputDir>
                     <packageName>com.test.model</packageName>
-                </configuration>
-                <dependencies>
-                    <!-- https://mvnrepository.com/artifact/net.codesup.util/jaxb2-rich-contract-plugin -->
-                    <dependency>
-                        <groupId>net.codesup.util</groupId>
-                        <artifactId>jaxb2-rich-contract-plugin</artifactId>
-                        <version>2.1.0</version>
-                    </dependency>
 
-                </dependencies>
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 </project>
