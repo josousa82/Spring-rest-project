@@ -34,7 +34,6 @@ public class Bootstrap implements CommandLineRunner {
     public void run(String... args) throws Exception {
 
         categoryRepository.saveAll(Arrays.asList(FRUITS, DRIED,FRESH, EXOTIC, NUTS));
-
         log.info("Number of categories loaded {}", categoryRepository.count());
 
         customerRepository.saveAll(Arrays.asList(CUSTOMER_1, CUSTOMER_2, CUSTOMER_3, CUSTOMER_4));
@@ -43,5 +42,4 @@ public class Bootstrap implements CommandLineRunner {
         vendorRepository.saveAll(Arrays.asList(VENDOR_1, VENDOR_2, VENDOR_3, VENDOR_4));
         log.info("Number of vendors loaded {}", customerRepository.count());
     }
-
 }

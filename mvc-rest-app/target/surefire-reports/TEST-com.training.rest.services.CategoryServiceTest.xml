@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.training.rest.services.CategoryServiceTest" time="0.043" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.training.rest.services.CategoryServiceTest" time="0.044" tests="2" errors="0" skipped="0" failures="0">
   <properties/>
   <testcase name="getAllCategories" classname="com.training.rest.services.CategoryServiceTest" time="0.042"/>
-  <testcase name="getCategoryByName" classname="com.training.rest.services.CategoryServiceTest" time="0"/>
+  <testcase name="getCategoryByName" classname="com.training.rest.services.CategoryServiceTest" time="0.001"/>
 </testsuite>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.training.rest.services.CustomerServiceTest" time="0.037" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.training.rest.services.CustomerServiceTest" time="0.036" tests="7" errors="0" skipped="0" failures="0">
   <properties/>
   <testcase name="createNewCustomerTest" classname="com.training.rest.services.CustomerServiceTest" time="0.022"/>
   <testcase name="saveCustomerByDTOTest" classname="com.training.rest.services.CustomerServiceTest" time="0.002"/>
-  <testcase name="getCustomerByIdTest" classname="com.training.rest.services.CustomerServiceTest" time="0.001"/>
+  <testcase name="getCustomerByIdTest" classname="com.training.rest.services.CustomerServiceTest" time="0"/>
   <testcase name="patchCustomerTest" classname="com.training.rest.services.CustomerServiceTest" time="0.008"/>
-  <testcase name="getAllCustomersTest" classname="com.training.rest.services.CustomerServiceTest" time="0.001"/>
+  <testcase name="getAllCustomersTest" classname="com.training.rest.services.CustomerServiceTest" time="0"/>
   <testcase name="getCustomerByNameTest" classname="com.training.rest.services.CustomerServiceTest" time="0.001"/>
   <testcase name="deleteCustomerByIdTest" classname="com.training.rest.services.CustomerServiceTest" time="0.001"/>
 </testsuite>

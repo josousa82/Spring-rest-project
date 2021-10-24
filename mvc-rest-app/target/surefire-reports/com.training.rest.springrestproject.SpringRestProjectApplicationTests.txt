@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.training.rest.springrestproject.SpringRestProjectApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.911 s - in com.training.rest.springrestproject.SpringRestProjectApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.879 s - in com.training.rest.springrestproject.SpringRestProjectApplicationTests

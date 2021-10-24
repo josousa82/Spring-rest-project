@@ -14,4 +14,59 @@
         <artifactId>Spring-rest-project-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api -->
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>2.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>2.3.2</version>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/net.codesup.util/jaxb2-rich-contract-plugin -->
+<!--        <dependency>-->
+<!--            <groupId>net.codesup.util</groupId>-->
+<!--            <artifactId>jaxb2-rich-contract-plugin</artifactId>-->
+<!--            <version>2.1.0</version>-->
+<!--        </dependency>-->
+
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>2.5.0</version>
+                <executions>
+                    <execution>
+                        <id>xjc-schema</id>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <sources>
+                        <source>src/main/resources/xsd</source>
+                    </sources>
+                    <clearOutputDir>false</clearOutputDir>
+                    <packageName>com.test.model</packageName>
+                </configuration>
+                <dependencies>
+                    <!-- https://mvnrepository.com/artifact/net.codesup.util/jaxb2-rich-contract-plugin -->
+                    <dependency>
+                        <groupId>net.codesup.util</groupId>
+                        <artifactId>jaxb2-rich-contract-plugin</artifactId>
+                        <version>2.1.0</version>
+                    </dependency>
+
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
 </project>

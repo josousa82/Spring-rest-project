@@ -15,9 +15,10 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = {"Cust Customer controller", "This is my customer controller" })
 @Slf4j
 @Controller
-@RequestMapping("/api/v1/customers/")
+@RequestMapping(CustomerController.CUSTOMERS_BASE_URL)
 public class CustomerController {
 
+    public static final String CUSTOMERS_BASE_URL = "/api/v1/customers/";
     private final CustomerService customerService;
 
     public CustomerController(CustomerService customerService) {
